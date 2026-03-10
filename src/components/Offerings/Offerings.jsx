@@ -8,7 +8,7 @@ import deviceIcon from "../../assets/devicesicon.png"
 export default function Offerings() {
 
 return (
-<section className="relative py-28 px-6 bg-[#0F1322] overflow-hidden ">
+<section id="services" className="relative py-28 px-6 bg-[#0F1322] overflow-hidden ">
 <div className="absolute top-0 left-0 w-full h-[2px] 
 bg-gradient-to-r from-transparent via-cyan-400 to-transparent
 opacity-70"></div>

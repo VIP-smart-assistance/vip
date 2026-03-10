@@ -19,24 +19,20 @@ import AboutUs from "../components/Aboutus/Aboutus"
 export default function Home() {
   return (
     <div className="relative min-h-screen  text-white">
-
       <MeshGradient/>
-<Particles/>
-<BlobBackground/>
+      <Particles/>
+      <BlobBackground/>
       <Navbar/>
       <Hero/>
       <div className="relative z-10 mt-[100vh]">
       <AboutUs/>
       <Products/>
       <Offerings/>
-      {/* <TrustBar/> */}
       <HowItWorks/>
       <AppShowcase/>
-      {/* <Features/> */}
       <CTA/>
       </div>
       <Footer/>
-
     </div>
   )
 }

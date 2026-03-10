@@ -28,7 +28,7 @@ const products = [
 export default function Products() {
 
   return (
-    <section className="relative py-28 px-6 bg-[#0F1322] overflow-hidden">
+    <section id="products" className="relative py-28 px-6 bg-[#0F1322] overflow-hidden">
 
       {/* Animated Background */}
       <div className="absolute inset-0 z-0 pointer-events-none">

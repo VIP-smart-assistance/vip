@@ -16,3 +16,6 @@ body::before{
   50% { transform: translateY(-20px); }
   100% { transform: translateY(0px); }
 }
+html {
+  scroll-behavior: smooth;
+}

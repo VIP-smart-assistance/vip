@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 export default function CTA(){
 
   return(
-    <section className="relative py-28 px-6 bg-[#0F1322] overflow-hidden">
+    <section id="contact" className="relative py-28 px-6 bg-[#0F1322] overflow-hidden">
 
       {/* background glow */}
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none">

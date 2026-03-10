@@ -30,29 +30,38 @@ export default function Navbar() {
         </h1>
 
         {/* Menu */}
-        <ul className="hidden md:flex gap-10 text-sm font-medium">
+<ul className="hidden md:flex gap-10 text-sm font-medium">
 
-          <li className="relative group cursor-pointer">
-            Home
-            <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
-          </li>
+<li
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  className="relative group cursor-pointer"
+>
+  Home
+  <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
+</li>
 
-          <li className="relative group cursor-pointer">
-            Products
-            <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
-          </li>
+  <li className="relative group cursor-pointer">
+    <a href="#products">
+      Products
+      <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
+    </a>
+  </li>
 
-          <li className="relative group cursor-pointer">
-            Services
-            <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
-          </li>
+  <li className="relative group cursor-pointer">
+    <a href="#services">
+      Services
+      <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
+    </a>
+  </li>
 
-          <li className="relative group cursor-pointer">
-            Contact
-            <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
-          </li>
+  <li className="relative group cursor-pointer">
+    <a href="#contact">
+      Contact
+      <span className="absolute left-0 bottom-[-4px] w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></span>
+    </a>
+  </li>
 
-        </ul>
+</ul>
 
         {/* CTA */}
         <button className="bg-gradient-to-r from-blue-500 to-cyan-400 px-5 py-2 rounded-full text-sm font-medium hover:scale-105 transition transform shadow-lg shadow-blue-500/20">
