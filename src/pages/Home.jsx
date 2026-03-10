@@ -29,10 +29,10 @@ export default function Home() {
       <AboutUs/>
       <Products/>
       <Offerings/>
-      <TrustBar/>
+      {/* <TrustBar/> */}
       <HowItWorks/>
       <AppShowcase/>
-      <Features/>
+      {/* <Features/> */}
       <CTA/>
       </div>
       <Footer/>
